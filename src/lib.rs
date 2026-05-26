@@ -23,7 +23,6 @@ pub fn calculate_total_reward(blocks_mined: u64) -> f64 {
     blocks_mined as f64 * MINING_REWARD
 }
 
-
 /// Return true if the transaction fee is between 0.00001 and 0.01 BTC.
 pub fn is_valid_tx_fee(fee: f64) -> bool {
     // TODO: Check if fee is between 0.00001 and 0.01 BTC (inclusive)
